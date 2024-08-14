@@ -12,6 +12,7 @@ CREATE TABLE Persons (
     Rating DECIMAL(3, 2),
     FOREIGN KEY (CountryID) REFERENCES Country(CountryID)
 );
+
 INSERT INTO Country (CountryID, CountryName, Population) VALUES
 (1, 'USA', 331002651),
 (2, 'India', 1380004385),
